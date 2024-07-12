@@ -1,0 +1,82 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{tikzpicture}[overlay,remember picture]
+	               \draw [line width= 4pt]
+    	%,segment length=<length>,amplitude=<length>
+       	($ (current page.north west) + (1cm,-1cm) $)
+        	rectangle
+       	($ (current page.south east) + (-1cm,1cm) $);
+       	\draw [line width= 1.5pt]
+       	%,segment length=<length>,amplitude=<length>
+       	($ (current page.north west) + (1.2cm,-1.2cm) $)
+      	 rectangle
+       	($ (current page.south east) + (-1.2cm,1.2cm) $)
+	\end{tikzpicture}
+  		 \centering
+		 \vspace{-2cm}
+		 {\LARGE\textbf{Visvesvaraya Technological University}}\\
+		 {\small\textbf{"Jnana Sangama", Belgavi-690018}}\\ 	
+
+		 \begin{figure}[h]
+   	 \centering
+    
+  			 \includegraphics[scale=0.25]{VTU Logo.png}
+    			 \label{fig:UV logo}
+		  \end{figure}
+
+   		 \vspace{0.3cm}
+   		 {\Large\textbf{Project Report}}\\
+ 		  \vspace{0.3cm}
+  		  {\Large\textbf{"Online Credit Card Fraud Detection"}}\\
+   		  \vspace{0.3cm}
+    		 {\small\textbf{SUBMITTED IN PARTIAL FULFILLMENT 		
+		 FOR 4TH SEMESTER}}\\
+     		\vspace{0.3cm}
+    		{\Large\textbf{BACHELOR OF ENGINEERING}}\\
+    		 \vspace{0.3cm}
+    		{\Large\textbf{IN}}\\
+     		\vspace{0.3cm}
+    		{\Large\textbf{DEPARTMENT OF CSE(AIML)}}\\
+     		\vspace{0.3cm}
+   		 {\Large SUBMITTED BY}\\
+   		 \vspace{0.5cm}
+    		{\Large\textbf{Ramkrishna}}\\
+    		\vspace{0.3cm}
+   		{\Large 1JS22CI055}\\
+   		 \vspace{1cm}
+   		{\Large\textbf{Under the guidance of}}\\
+    		\vspace{0.2cm}
+  		{\Large Sneha Y S}\\
+    		\vspace{0.2cm}
+   		{\Large Assistant Professor}\\
+   		 \vspace{0.2cm}
+    		{\Large Department of CSE(AIML), JSSATEB}
+     		\vspace{0.5cm}
+
+         		\begin{figure}[h]
+   			 \centering
+        			 \includegraphics[scale=0.5]{jsslogo.jpg}
+    			\label{fig:jss logo}
+		\end{figure}
+   		\vspace{0.5cm}
+
+    		{\small\textbf{DEPARTMENT OF CSE(AIML)}}\\
+    		\vspace{0.2cm}
+  
+    		{\small\textbf{JSS ACADEMY OF TECHNICAL 			
+		EDUCATION}}\\
+  		\vspace{0.2cm}
+   		 {\small\textbf{JSS Campus, Dr.Vishnuvardhan Road, Bengaluru-	
+		560060}}\\
+   		 \vspace{0.2cm}
+   		 {\Large 2023-2024}          % Date of submission
+	\end{titlepage}
+
+\end{document}
+
