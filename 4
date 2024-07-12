@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{ragged2e}
+\usepackage{indentfirst}
+
+\begin{document}
+
+	\begin{titlepage}
+    		\centering
+	\begin{tikzpicture}[overlay,remember picture]
+  		\draw [line width= 3pt]
+        
+       		 ($ (current page.north west) + (2cm,-1cm) $)
+       		 rectangle
+        		($ (current page.south east) + (-1cm,1cm) $);
+        		\draw [line width= 1.2pt]
+        
+        		($ (current page.north west) + (2.1cm,-1.1) $)
+       		 rectangle
+        		($ (current page.south east) + (-1.1cm,1.1cm) $);
+    
+	\end{tikzpicture}
+	\begin{center}
+	\vspace{-2cm}
+	\small \textbf{JSS MAHAVIDYAPEETHA}\\
+	\vspace{0.1 cm}
+	\large \textbf{JSS ACADEMY OF TECHNICAL EDUCATION}\\
+	\small \textbf{JSS Campus, Dr. Vishnuvardhan Road, Bengaluru-560060}\\
+	\vspace{0.5 cm}
+	\textbf{DEPARTMENT OF CSE(AIML)} \\
+
+	\begin{figure}[h]
+   		 \centering
+   		 \graphicspath{{images/}}
+   		 \includegraphics[scale=0.6]{jsslogo.jpg}
+	\end{figure}
+	\vspace{1cm}
+	\textbf{\underline {CERTIFICATE}}
+	\end{center}
+	\vspace{0.5cm}
+	\justify
+	\indent This is to certify that \underline{\hspace{7cm}} bearing USN 	\underline{\hspace{5cm}}, of CSE(AIML), have 		
+	successfully completed the project titled \textbf{“Electronic Health Records 	Using Hyperledger Fabric”} in partial fulfilment of the requirement of 		
+	Fourth Semester Project of Bachelor of Engineering in CSE(AIML), 		
+	prescribed by Visvesvaraya Technological University, Belgavi for the 		
+	academic year 2023 – 2024.
+
+	\noindent \begin{minipage}{4cm}
+	\begin{flushleft}
+	\vspace{3 cm}
+	\line(1,0){100}\\
+	\textbf{Sneha Y S}\\
+	Asst.Professor\\
+	Department of CSE(AIML)\\
+	JSSATE, Bangalore\\
+	\end{flushleft} 
+	\end{minipage}
+	\hfill
+	\begin{minipage}{10cm}
+	\begin{flushright}                                      
+	\vspace{3 cm}
+	\line(1,0){100}\\
+	\textbf{Dr. Anil B C}\\
+	Associate Professor \& Head\\
+	Department of CSE(AIML)\\
+	JSSATE, Bangalore\\
+	\end{flushright} 
+	\end{minipage}
+
+	\noindent \begin{minipage}{4cm}
+	\begin{flushleft}
+	\vspace{3 cm}
+	\line(1,0){100}\\
+	\textbf{Examiner 1}\\
+	Date:\\
+	\end{flushleft} 
+	\end{minipage}
+	\hspace{7cm}
+	\hfill
+	\begin{minipage}{10cm}
+	\begin{flushleft}                                      
+	\vspace{3 cm}
+	\line(1,0){100}\\
+
+	\textbf{Examiner 2}\\
+	Date:\\
+	\end{flushleft} 
+	\end{minipage}
+	% \thispagestyle{empty}
+
+	\end{titlepage}
+
+\end{document}
