@@ -1,0 +1,87 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage{geometry}
+\geometry{left=3cm,right=3cm,top=2cm,bottom=2cm}
+
+\title{JSSATEB}
+\author{suj}
+
+\begin{document}
+
+\maketitle
+
+\chapter{Free Software}
+
+\section*{What is Free Software?}
+"Free software" means software that respects users' freedom and community. Roughly, it means that \textbf{the users have the freedom to run, copy, distribute, study, change and improve the software}. Thus, "free software" is a matter of liberty, not price. To understand the concept, you should think of "free" as in "free speech," not as in "free beer." We sometimes call it "libre software," borrowing the French or Spanish word for "free" as in freedom, to show we do not mean the software is gratis.
+
+\section*{The Free Software Definition}
+The free software definition presents the criteria for whether a particular software program qualifies as free software.
+
+\textbf{The four essential freedoms}
+
+A program is free software if the program's users have the four essential freedoms:
+
+\begin{itemize}
+\item The freedom to run the program as you wish, for any purpose (freedom 0).
+\item The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
+\item The freedom to redistribute copies so you can help others (freedom 2).
+\item The freedom to distribute copies of your modified versions to others (freedom 3).
+\end{itemize}
+
+\chapter{Listing Environment}
+
+\section*{Unordered lists}
+
+\subsection*{Groceries List}
+\begin{itemize}
+\item Eggs
+\item Milk
+\item Biscuits
+\item Rice
+\end{itemize}
+
+\subsection*{Football Teams}
+\begin{itemize}
+\item English Premier League
+  \begin{itemize}
+  \item Manchester United
+  \item Liverpool
+  \end{itemize}
+\item La Liga
+  \begin{itemize}
+  \item Barcelona
+  \item Real Madrid
+  \end{itemize}
+\item Bundesliga
+  \begin{itemize}
+  \item Bayern Munich
+  \item Borussia Dortmund
+  \end{itemize}
+\end{itemize}
+
+\section*{Ordered lists}
+
+\subsection*{ICC WTC Rankings}
+\begin{enumerate}
+\item India
+\item Australia
+\item New Zealand
+\end{enumerate}
+
+\subsection*{Countries ranked by Market Cap}
+\begin{enumerate}
+\item Asia
+  \begin{enumerate}
+  \item China
+  \item Japan
+  \item India
+  \end{enumerate}
+\item Europe
+  \begin{enumerate}
+  \item United Kingdom
+  \item France
+  \item Germany
+  \end{enumerate}
+\end{enumerate}
+
+\end{document}
